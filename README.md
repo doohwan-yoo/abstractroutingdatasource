@@ -10,4 +10,4 @@
 - Datasource 연동을 AbstractRoutingDatasource 상속받아서 determineCurrentLookupKey 를 활용하여 어느 Datasource 에 접근할 것인지 판단하도록 한다
 - LazyConnectionDataSourceProxy 를 활용하여 쿼리 질의 시점에 RoutingSource 를 판단토록 한다
 - AOP를 활용하여 Annotation으로 어떤 유형에 DB 에 접근할 것인지 정해 준다. 단 DB 유형은 Threadsafe 해야 함으로 ThreadLocal 로 처리한다
-
+- 완료
